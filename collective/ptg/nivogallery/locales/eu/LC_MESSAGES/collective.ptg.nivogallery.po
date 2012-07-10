@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: collective.plonetruegallery\n"
+"POT-Creation-Date: 2012-07-10 13:20+0000\n"
+"PO-Revision-Date: 2012-06-19 09:36+0100\n"
+"Last-Translator: Mikel Larreategi <mlarreategi@codesyntax.com>\n"
+"Language-Team: eu <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+"X-Poedit-Language: Basque\n"
+
+#. Default: "Show navigation arrows on the image"
+#: ./__init__.py:12
+msgid "label_nivogallery_directionnav"
+msgstr "Nabigazio geziak erakutsi irudiaren gainean"
+
+#. Default: "Nivogallery"
+#: ./__init__.py:33
+msgid "label_nivogallery_display_type"
+msgstr "Nivogallery"
+
+#. Default: "Height of the gallery. You can not set the height in %"
+#: ./__init__.py:24
+msgid "label_nivogallery_height"
+msgstr "Galeriaren altuera (ezin duzu %rik erabili)"
+
+#. Default: "Show progressbar at the top"
+#: ./__init__.py:16
+msgid "label_nivogallery_progressbar"
+msgstr "Gainean iraupen barra erakutsi"
+
+#. Default: "Width of the gallery"
+#: ./__init__.py:20
+msgid "label_nivogallery_width"
+msgstr "Galeriaren zabalera"
+
