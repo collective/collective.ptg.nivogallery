@@ -6,3 +6,5 @@ collective/.DS_Store
 collective.ptg.nivogallery.egg-info/*
 collective.ptg.nivogallery.egg-info
 dist
+
+*.pyc
