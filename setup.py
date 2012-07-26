@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.3'
+version = '1.0.4'
 
 setup(name='collective.ptg.nivogallery',
       version=version,
-      description="",
+      description="nivo gallery integration with collective.plonetruegallery",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
