@@ -5,16 +5,31 @@
     <![endif]-->
 </head>
 <div id="gallery" class="nivoGallery">
-    <ul>
+    <ul tal:condition="view/settings/nivogallery_show_titleanddescription" >
+    <li tal:repeat="img view/adapter/cooked_images" 
+                    data-title=""
+                    data-caption=""
+                    tal:attributes="data-caption img/description;
+                    data-title img/title" >
+    <img title="Locomotives Roundhouse"
+         alt=""
+         src=""
+         tal:attributes="title img/title;
+                                alt img/description;
+                                src img/image_url"/>        
+    </li>
+    </ul>
+    <ul tal:condition="not: view/settings/nivogallery_show_titleanddescription" >
     <li tal:repeat="img view/adapter/cooked_images">
     <img title="Locomotives Roundhouse"
          alt=""
          src=""
          tal:attributes="title img/title;
                                 alt img/description;
-                                src img/image_url"/>           
+                                src img/image_url"/>        
     </li>
     </ul>
 </div>
+ 
  
  

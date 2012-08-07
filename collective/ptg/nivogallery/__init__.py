@@ -16,6 +16,10 @@ class INivogalleryDisplaySettings(IBaseSettings):
         title=_(u"label_nivogallery_progressbar",
             default=u"Show progressbar at the top"),
         default=True)
+    nivogallery_show_titleanddescription = schema.Bool(
+        title=_(u"label_show_titleanddescription",
+            default=u"Show title and description of the images"),
+        default=False)
     nivogallery_width = schema.TextLine(
         title=_(u"label_nivogallery_width",
             default=u"Width of the gallery"),

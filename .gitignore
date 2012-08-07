@@ -8,3 +8,5 @@ collective.ptg.nivogallery.egg-info
 dist
 
 *.pyc
+
+*.mo
