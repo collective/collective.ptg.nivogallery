@@ -48,7 +48,7 @@ $(document).ready(function() {
     pauseTime: %(delay)i,
     animSpeed: %(duration)i,
     effect: 'fade',
-    startPaused: false,
+    startPaused: %(startPaused)s,
     directionNav: %(directionnav)s,
     progressBar: %(progressbar)s
     });
@@ -58,9 +58,8 @@ $(document).ready(function() {
 """ % {
          'portal_url': self.portal_url,
          'duration': self.settings.duration,
-         'timed': jsbool(self.settings.timed),
          'delay': self.settings.delay,
-         'start_automatically': jsbool(self.settings.timed),
+         'startPaused': jsbool(not self.settings.timed),
          'directionnav': jsbool(self.settings.nivogallery_directionnav),
          'progressbar': jsbool(self.settings.nivogallery_progressbar),
     }
