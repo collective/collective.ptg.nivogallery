@@ -4,6 +4,8 @@ Changelog
 1.2 (unreleased)
 ----------------
 
+- fixed Uncaught TypeError: g.find(...).live is not a function [macagua]
+
 - fix paused starting [pbauer]
 
 1.1 (2012-08-07)

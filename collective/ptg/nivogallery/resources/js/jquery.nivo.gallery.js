@@ -234,7 +234,7 @@
             plugin.settings.galleryLoaded.call(this);
         });
         
-        $element.find('.nivoGallery-play').live('click', function(){
+        $element.find('.nivoGallery-play').on('click', function(){
             $(this).toggleClass('playing');
             global.paused = !global.paused;
             runTimeout();
@@ -245,15 +245,15 @@
             runTransition('next');
         });
         
-        $element.find('.nivoGallery-prev').live('click', function(){
+        $element.find('.nivoGallery-prev').on('click', function(){
         	plugin.prevSlide();
         });
         
-        $element.find('.nivoGallery-next').live('click', function(){
+        $element.find('.nivoGallery-next').on('click', function(){
         	plugin.nextSlide();
         });
         
-        $element.find('.nivoGallery-fullscreen').live('click', function(){
+        $element.find('.nivoGallery-fullscreen').on('click', function(){
             $element.toggleClass('fullscreen');
         });
         
