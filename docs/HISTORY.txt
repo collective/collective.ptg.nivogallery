@@ -4,6 +4,8 @@ Changelog
 1.2 (unreleased)
 ----------------
 
+- Updated Spanish translation [macagua]
+
 - Updated Gettext files [macagua]
 
 - fixed Uncaught TypeError: g.find(...).live is not a function [macagua]
