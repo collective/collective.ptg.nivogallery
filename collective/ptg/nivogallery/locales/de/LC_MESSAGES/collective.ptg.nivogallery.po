@@ -1,8 +1,8 @@
 # Harald Friessnegger <harald@webmeisterei.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2012-07-10 13:20+0000\n"
+"Project-Id-Version: collective.ptg.nivogallery\n"
+"POT-Creation-Date: 2018-08-18 14:49+0000\n"
 "PO-Revision-Date: 2010-08-20 12:05+0200\n"
 "Last-Translator: Harald Friessnegger <harald@webmeisterei.com>\n"
 "Language-Team: Deutsch <kde-i18n-de@kde.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Code: de\n"
 "Language-Name: German\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.plonetruegallery\n"
+"Domain: collective.ptg.nivogallery\n"
 "X-Is-Fallback-For: de-at de-li de-lu de-ch de-de\n"
 "X-Generator: Lokalize 1.0\n"
 
@@ -23,12 +23,12 @@ msgid "label_nivogallery_directionnav"
 msgstr ""
 
 #. Default: "Nivogallery"
-#: ./__init__.py:33
+#: ./__init__.py:37
 msgid "label_nivogallery_display_type"
 msgstr ""
 
 #. Default: "Height of the gallery. You can not set the height in %"
-#: ./__init__.py:24
+#: ./__init__.py:28
 msgid "label_nivogallery_height"
 msgstr ""
 
@@ -38,7 +38,11 @@ msgid "label_nivogallery_progressbar"
 msgstr ""
 
 #. Default: "Width of the gallery"
-#: ./__init__.py:20
+#: ./__init__.py:24
 msgid "label_nivogallery_width"
 msgstr ""
 
+#. Default: "Show title and description of the images"
+#: ./__init__.py:20
+msgid "label_show_titleanddescription"
+msgstr ""

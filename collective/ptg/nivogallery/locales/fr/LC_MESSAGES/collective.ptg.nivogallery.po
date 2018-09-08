@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-07-10 13:20+0000\n"
+"Project-Id-Version: collective.ptg.nivogallery VERSION\n"
+"POT-Creation-Date: 2018-08-18 14:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Language-Code: fr\n"
 "Language-Name: French\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.plonetruegallery\n"
+"Domain: collective.ptg.nivogallery\n"
 
 #. Default: "Show navigation arrows on the image"
 #: ./__init__.py:12
@@ -20,12 +20,12 @@ msgid "label_nivogallery_directionnav"
 msgstr ""
 
 #. Default: "Nivogallery"
-#: ./__init__.py:33
+#: ./__init__.py:37
 msgid "label_nivogallery_display_type"
 msgstr ""
 
 #. Default: "Height of the gallery. You can not set the height in %"
-#: ./__init__.py:24
+#: ./__init__.py:28
 msgid "label_nivogallery_height"
 msgstr ""
 
@@ -35,7 +35,11 @@ msgid "label_nivogallery_progressbar"
 msgstr ""
 
 #. Default: "Width of the gallery"
-#: ./__init__.py:20
+#: ./__init__.py:24
 msgid "label_nivogallery_width"
 msgstr ""
 
+#. Default: "Show title and description of the images"
+#: ./__init__.py:20
+msgid "label_show_titleanddescription"
+msgstr ""
