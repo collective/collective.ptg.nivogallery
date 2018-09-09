@@ -1,5 +1,5 @@
 # --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# Finnish translations for collective.plonetruegallery package.
+# Finnish translations for collective.ptg.nivogallery package.
 # Ilja Everilä <ilja.everila@twinapex.com>, 2009.
 msgid ""
 msgstr ""
