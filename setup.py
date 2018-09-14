@@ -1,23 +1,42 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.1'
+version = '1.2'
 
 setup(name='collective.ptg.nivogallery',
       version=version,
-      description="nivo gallery integration with collective.plonetruegallery",
+      description="'nivo gallery' integration as a Gallery Display Type extension for PloneTrueGallery package",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
-      # http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      # https://pypi.org/pypi?:action=list_classifiers
       classifiers=[
+        "Development Status :: 4 - Beta",
+        "Environment :: Web Environment",
         "Framework :: Plone",
+        "Framework :: Plone :: 4.0",
+        "Framework :: Plone :: 4.1",
+        "Framework :: Plone :: 4.2",
+        "Framework :: Plone :: 4.3",
+        "Framework :: Plone :: Theme",
+        "Framework :: Zope2",
+        "Framework :: Zope3",
+        "Intended Audience :: Developers",
+        "Intended Audience :: End Users/Desktop",
+        "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+        "Operating System :: OS Independent",
         "Programming Language :: Python",
+        "Programming Language :: Python :: 2.6",
+        "Programming Language :: Python :: 2.7",
+        "Topic :: Internet",
+        "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-      keywords='plone plonetruegallery addon nivo gallery',
+      keywords='web zope plone cms plonetruegallery nivo gallery addon',
       author='Nathan Van Gheem',
       author_email='vangheem@gmail.com',
-      url='https://github.com/vangheem/collective.ptg.nivogallery',
+      maintainer='Leonardo Caballero',
+      maintainer_email='leonardocaballero@gmail.com',
+      url='https://github.com/collective/collective.ptg.nivogallery',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective', 'collective.ptg'],
